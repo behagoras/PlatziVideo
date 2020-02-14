@@ -6,6 +6,7 @@ const dotenv = require('dotenv');
 const TerserPlugin = require('terser-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 const ManifestPlugin = require('webpack-manifest-plugin');
+
 dotenv.config();
 
 const isProd = (process.env.NODE_ENV === 'production');
